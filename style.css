@@ -8,7 +8,7 @@ body{
 header{
     display: flex;
     padding: 5px;
-    height: 5%;
+    height: 60px;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(218, 210, 210);
@@ -41,6 +41,151 @@ nav a:first-child{
 }
 .cart-itemlogin a {
     background-color: black;
+    padding: 5px;
     border: 2px solid black;
     border-radius: 4px;
 }
+
+main{
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+
+}
+
+.cart-img{
+    position: relative;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 40%;
+    margin: auto;
+}
+
+.arrow-left,.arrow-right{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+
+.arrow-left{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+.arrow-right{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+}
+
+.arrow-right:hover{
+    background-color: grey;
+    
+}
+
+.cart-img img{
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+.box-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rating{
+    display: flex;
+    gap: 10px;
+
+}
+.rating{
+    color: yellow;
+
+}
+.price, .size ,.color{
+    font-size: x-large;
+    font-weight: 400;
+}
+.size-choix{
+    display: flex;
+    gap: 10px;
+}
+.size-choix a {
+    width: fit-content;
+    padding: 3px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    background-color: white;
+}
+.size-choix a:nth-child(2){
+    background-color: black;
+}
+.cart-colors{
+    display: flex;
+    gap: 10px;
+}
+.cart-colors div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+.color-black{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.color-white{
+    background-color: white;
+}
+.color-grey{
+    background-color: gray;
+}
+.color-yellow{
+    background-color: yellow;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.cart-items{
+    width: 80%;
+    display: flex;
+    gap: 20px;
+
+}
+.count{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
