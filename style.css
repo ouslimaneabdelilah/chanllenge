@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: gainsboro;
+}
+header{
+    display: flex;
+    padding: 5px;
+    height: 5%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(218, 210, 210);
+    box-shadow: inset;
+
+}
+.logo{
+    font-size: x-large;
+    font-weight: 500;
+}
+nav {
+    display: flex;
+    gap: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+nav a:first-child{
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
+}
+.cart-itemlogin{
+    display: flex;
+    gap: 10px;
+
+}
+.cart-itemlogin a {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+}
